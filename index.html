@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section id="slider">
+        <input type="radio" name="slider" id="s1" checked onclick="myFunction()">
+        <input type="radio" name="slider" id="s2" onclick="mySecFunction()">
+        <input type="radio" name="slider" id="s3" onclick="myThiFunction()">
+        <input type="radio" name="slider" id="s4" onclick="myFouFunction()">
+        <input type="radio" name="slider" id="s5" onclick="myFivFunction()">
+      
+        <label for="s1" id="slide1"><div class="box"><a href="https://www.facebook.com/"><i class="fa-solid fa-magnifying-glass"></i></a></div></label>
+        <label for="s2" id="slide2"><div class="box"><a href="https://www.facebook.com/"><i class="fa-solid fa-magnifying-glass"></i></a></div></label>
+        <label for="s3" id="slide3"><div class="box"><a href="https://www.facebook.com/"><i class="fa-solid fa-magnifying-glass"></i></a></div></label>
+        <label for="s4" id="slide4"><div class="box"><a href="https://www.facebook.com/"><i class="fa-solid fa-magnifying-glass"></i></a></div></label>
+        <label for="s5" id="slide5"><div class="box"><a href="https://www.facebook.com/"><i class="fa-solid fa-magnifying-glass"></i></a></div></label>
+      </section>
+
+      <p id="textfir" style="display:block">Fermanoğlu Grup</p>
+      
+      <a href="https://youtu.be/feVfzM--S3Y" target="self">
+        <div class="youtube-link">Watch on YouTube</div>
+      </a>
+    
+
+    
+    <script type="text/javascript">
+        function myFunction() {
+            // Get the checkbox
+            var radio = document.getElementById("s1");
+            // Get the output text
+            var text = document.getElementById("textfir");
+
+            // If the checkbox is checked, display the output text
+            if (radio.checked == true){
+                document.querySelector("#textfir").innerHTML = "Fermanoğlu Grup";
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function mySecFunction() {
+            // Get the checkbox
+            var radio = document.getElementById("s2");
+            // Get the output text
+            var text = document.getElementById("textfir");
+
+            // If the checkbox is checked, display the output text
+            if (radio.checked == true){
+                document.querySelector("#textfir").innerHTML = "Darsan Mobilya";
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function myThiFunction() {
+            // Get the checkbox
+            var radio = document.getElementById("s3");
+            // Get the output text
+            var text = document.getElementById("textfir");
+
+            // If the checkbox is checked, display the output text
+            if (radio.checked == true){
+                document.querySelector("#textfir").innerHTML = "FEKA Reklam";
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function myFouFunction() {
+            // Get the checkbox
+            var radio = document.getElementById("s4");
+            // Get the output text
+            var text = document.getElementById("textfir");
+
+            // If the checkbox is checked, display the output text
+            if (radio.checked == true){
+                    document.querySelector("#textfir").innerHTML = "FRM Mühendislik";
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function myFivFunction() {
+            // Get the checkbox
+            var radio = document.getElementById("s5");
+            // Get the output text
+            var text = document.getElementById("textfir");
+
+            // If the checkbox is checked, display the output text
+            if (radio.checked == true){
+                document.querySelector("#textfir").innerHTML = "SOFTPINE";
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+
+
+    
+    
+
+</body>
+</html>
